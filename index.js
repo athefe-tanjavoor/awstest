@@ -6,6 +6,6 @@ app.get("/", function (req, res) {
   res.send("Hi from Ec2 instance!");
 });
 
-app.listen(3000, () => {
-  console.log("Listening on port 3000");
+app.listen(3300, () => {
+  console.log("Listening on port 3300");
 });
